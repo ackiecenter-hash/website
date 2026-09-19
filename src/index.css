@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #eefbf3;
+  --color-brand-100: #d7f3e2;
+  --color-brand-300: #8fe0b6;
+  --color-brand-500: #2f9e63;
+  --color-brand-600: #227a4d;
+  --color-brand-700: #1c6640;
+  --color-brand-900: #0f3324;
+  --color-brand-950: #0a2419;
+
+  --color-sand: #f6f3ea;
+  --color-sand-dark: #ece6d4;
+  --color-ink: #16241c;
+  --color-ink-dim: #55655a;
+
+  /* Backwards-compatible aliases used across existing components */
+  --color-brand-green: var(--color-brand-600);
+  --color-brand-green-dark: var(--color-brand-900);
+  --color-brand-amber: #e08a3c;
+
+  --font-display: "Kanit", "Noto Sans Thai", system-ui, sans-serif;
+  --font-sans: "Prompt", "Noto Sans Thai", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-sand text-ink antialiased;
+  font-feature-settings: "kern" 1;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+.bg-grid {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.16) 1px, transparent 1px);
+  background-size: 22px 22px;
+}

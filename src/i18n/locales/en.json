@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "articles": "Articles",
+    "contact": "Contact",
+    "dealer": "For Dealers",
+    "staff": "For Staff"
+  },
+  "home": {
+    "heroTitle": "The Agricultural Partner Thai Farmers Trust",
+    "heroSubtitle": "Liquid fertilizers, wetting agents, chitosan, and plant performance boosters by Ackie Plus",
+    "cta": "View All Products",
+    "featuredProducts": "Featured Products"
+  },
+  "footer": {
+    "companyName": "Ackie Plus Co., Ltd.",
+    "rights": "All rights reserved"
+  }
+}
